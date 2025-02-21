@@ -1,18 +1,28 @@
-<h1>Amphibians App - Pablo Guardia</h1>
+<h1>Inventory App - Pablo Guardia</h1>
 
 ================================
 
-Amphibians App created for Assignment 5 of COP4656 - Mobile Programming.
-The app's source code follows the codelab for the Amphibians app in Unit 5 of the Android Basics with Compose course. The code contains a URL redirecting to the host of a JSON file, which in turn contains the information needed, including the name of the amphibian, a cartoon picture of it, and its description. All three elements must be displayed on the phone screen as a scrollable list. The elements are not clickable.
+Inventory App created for Assignment 6 of COP4656 - Mobile Programming.
+The app's code follows the two codelabs for Unit 6, Pathway 2 of the Android Basics with Compose course. It displays a screen with a list of items in a database, each item containing a name, a price, and an amount in stock. Tapping on an item allows further information, the ability to sell it one by one, the ability to delete it, and finally the ability to edit all fields as one sees fit. Finally, there is a button on the homepage to add a new item to the database. The app works with the Room abstraction layer for SQLite, meaning that the database must persist between runs and no data should be lost in between runs.
 
 ================================
 
-<h3>Update (January 14th, approx. 4:00 P.M.):</h3>
+<h3>Update (February 20th, approx. 7:00 P.M.):</h3>
 
-- Added README.md file
+- Modified README.md file to usual format
 
-<h3>Update (January 14th, approx. 5:00 P.M.):</h3>
+<h3>Update (February 20th, approx. 7:45 P.M.):</h3>
 
-- Completed "Create an interactive Dice Roller app" section of Android course
-- Added header comment block and additional comments
+- Completed "Persist data with Room" section of pathway
+- Updated README.md file
+
+<h3> Update (February 21st, approx. 1:00 A.M.):</h3>
+
+- Fixed an issue where app would crash whenever the user would try to add a new item.
+	- The function getDatabase() in InventoryDatabase.kt contained a .fallbackToDestructiveMigration() line, which prompted the crash. Removing this line fixed the issue
+- Updated README.md file
+
+<h3> Update (February 21st, approx. 5:30 P.M.):</h3>
+
+- Completed "Read and update data with Room" section of pathway
 - Updated README.md file
