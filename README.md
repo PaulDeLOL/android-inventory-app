@@ -1,29 +1,18 @@
-Inventory app
-==================================
+Amphibians App - Pablo Guardia
 
-Solution code for Android Basics with Compose.
+================================
 
-Introduction
-------------
+Amphibians App created for Assignment 5 of COP4656 - Mobile Programming.
+The app's source code follows the codelab for the Amphibians app in Unit 5 of the Android Basics with Compose course. The code contains a URL redirecting to the host of a JSON file, which in turn contains the information needed, including the name of the amphibian, a cartoon picture of it, and its description. All three elements must be displayed on the phone screen as a scrollable list. The elements are not clickable.
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
+================================
 
-Pre-requisites
---------------
+<h3>Update (January 14th, approx. 4:00 P.M.):</h3>
 
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
+- Added README.md file
 
+<h3>Update (January 14th, approx. 5:00 P.M.):</h3>
 
-Getting Started
----------------
-
-1. Download and run the app.
+- Completed "Create an interactive Dice Roller app" section of Android course
+- Added header comment block and additional comments
+- Updated README.md file
