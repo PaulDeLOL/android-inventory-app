@@ -1,3 +1,5 @@
+package com.example.inventory.data
+
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.example.inventory.data.Item
@@ -16,7 +18,6 @@ abstract class InventoryDatabase : RoomDatabase() {
         fun getDatabase(context: Context): InventoryDatabase {
             return Instance ?: synchronized(this) {
                 Room.databaseBuilder(context, InventoryDatabase::class.java, "item_database")
-                    .fallbackToDestructiveMigration()
                     .build()
                     .also { Instance = it }
             }
